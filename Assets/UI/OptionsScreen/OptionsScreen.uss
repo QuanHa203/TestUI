@@ -1,0 +1,67 @@
+#container {
+	display: none;
+	justify-content: center;
+}
+
+#options-screen {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	height: 400px;
+	background-color: white;
+	align-items: center;
+}
+
+#title {
+	font-size: 60px;
+	margin: 24px 0;
+	-unity-text-align: middle-center;
+}
+
+#options-box {
+	width: 100%;
+	margin: 24px 0;
+	align-items: center;
+}
+
+#music-btn, #sound-btn {
+	width: 40%;
+	background-color: rgba(0,0,0,0);
+	border-width: 0;
+	padding: 0;
+	margin: 0 auto;
+	flex-direction: row;
+	margin: 12px 0;
+}
+
+#music-label, #sound-label {
+	-unity-text-align: middle-left;
+	font-size: 40px;
+	width: 60%;
+}
+
+#music-background {
+	background-image: url('/Assets/Icons/musicOn.svg');
+	width: 40%;
+}
+
+#sound-background {
+	background-image: url('/Assets/Icons/soundOn.svg');
+	width: 40%;
+}
+
+#options-btn {
+	position: absolute;
+	top: 100%;
+	translate: 0 -50%;
+	flex-direction: row;
+	width: 60%;
+	justify-content: space-between;
+}
+
+#cancel-btn, #confirm-btn {
+	width: 30%;
+	padding: 24px;
+	font-size: 24px;
+
+}

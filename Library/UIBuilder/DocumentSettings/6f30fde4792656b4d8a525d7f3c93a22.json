@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "6f30fde4792656b4d8a525d7f3c93a22",
+    "UxmlPath": "Assets/UI/OptionsScreen/OptionsScreen.uxml",
+    "CanvasX": -228,
+    "CanvasY": -336,
+    "CanvasWidth": 2011,
+    "CanvasHeight": 1072,
+    "MatchGameView": false,
+    "ZoomScale": 0.44999998807907107,
+    "PanOffset": {
+        "x": 150.51437377929688,
+        "y": 178.94699096679688
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

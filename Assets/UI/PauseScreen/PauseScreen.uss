@@ -1,0 +1,16 @@
+#container {
+	display: none;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.4);
+    transition-duration: 0.1s;
+}
+
+#pause-screen {
+	width: 60%;
+	margin: 0 auto;
+
+}
+
+#resume-btn, #options-btn, #main-menu-btn {
+	margin: 24px 0;
+}

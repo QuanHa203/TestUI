@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Common.uss?fileID=7433441132597879392&amp;guid=e66d033d54f4d7a498753dee6aa22210&amp;type=3#Common" />
+    <Style src="project://database/Assets/UI/OptionsScreen/OptionsScreen.uss?fileID=7433441132597879392&amp;guid=3b54d80719b836444b8943498cdffb34&amp;type=3#OptionsScreen" />
+    <ui:VisualElement name="container" style="flex-grow: 1;">
+        <ui:VisualElement name="options-screen">
+            <ui:Label tabindex="-1" text="Options" display-tooltip-when-elided="true" name="title" />
+            <ui:VisualElement name="options-box">
+                <ui:Button display-tooltip-when-elided="true" name="music-btn">
+                    <ui:Label tabindex="-1" text="Music" display-tooltip-when-elided="true" name="music-label" />
+                    <ui:VisualElement name="music-background" />
+                </ui:Button>
+                <ui:Button display-tooltip-when-elided="true" name="sound-btn">
+                    <ui:Label tabindex="-1" text="Sound" display-tooltip-when-elided="true" name="sound-label" />
+                    <ui:VisualElement name="sound-background" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="options-btn">
+                <ui:Button text="Cancel" display-tooltip-when-elided="true" name="cancel-btn" class="unity-button btn-handle error-btn" />
+                <ui:Button text="Confirm" display-tooltip-when-elided="true" name="confirm-btn" class="unity-button btn-handle success-btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

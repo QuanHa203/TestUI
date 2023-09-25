@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Common.uss?fileID=7433441132597879392&amp;guid=e66d033d54f4d7a498753dee6aa22210&amp;type=3#Common" />
+    <Style src="project://database/Assets/UI/MessageBox/MessageBox.uss?fileID=7433441132597879392&amp;guid=bdc3413ba7c0d7946b5b1933f93c5b7d&amp;type=3#MessageBox" />
+    <ui:VisualElement name="container" style="flex-grow: 1;">
+        <ui:VisualElement name="message-box">
+            <ui:VisualElement name="message-box-background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="box-text">
+                <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="description" text="Abcc" />
+            </ui:VisualElement>
+            <ui:VisualElement name="box-btn">
+                <ui:Button text="Confirm" display-tooltip-when-elided="true" name="confirm-btn" class="unity-button btn-handle" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "a37f9a2ffb7956c4b956a0bce6693ffb",
+    "UxmlPath": "Assets/UI/GoalScreen/GoalScreen.uxml",
+    "CanvasX": -104,
+    "CanvasY": -115,
+    "CanvasWidth": 1207,
+    "CanvasHeight": 471,
+    "MatchGameView": false,
+    "ZoomScale": 0.4000000059604645,
+    "PanOffset": {
+        "x": 248.29779052734376,
+        "y": 296.0247802734375
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

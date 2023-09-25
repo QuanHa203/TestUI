@@ -1,0 +1,12 @@
+#container {
+	transition-duration: 0.1s;
+}
+#main-menu {
+	width: 60%;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.btn {
+	margin: 24px 0;
+}

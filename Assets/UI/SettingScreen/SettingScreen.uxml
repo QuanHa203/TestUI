@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Common.uss?fileID=7433441132597879392&amp;guid=e66d033d54f4d7a498753dee6aa22210&amp;type=3#Common" />
+    <Style src="project://database/Assets/UI/SettingScreen/SettingScreen.uss?fileID=7433441132597879392&amp;guid=b98768c3a6498cd409fd96b0bc4689b4&amp;type=3#SettingScreen" />
+    <ui:VisualElement name="container" style="flex-grow: 1;">
+        <ui:VisualElement name="setting-screen">
+            <ui:Label tabindex="-1" text="Setting" display-tooltip-when-elided="true" name="setting-screen-label" />
+            <ui:VisualElement name="slider-box">
+                <ui:Slider picking-mode="Ignore" label="Sound" value="42" high-value="100" name="slider-sound" />
+                <ui:Slider picking-mode="Ignore" label="Music" value="42" high-value="100" name="slider-music" />
+            </ui:VisualElement>
+            <ui:VisualElement name="btn-navigation">
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="back-btn" class="unity-button btn-handle error-btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

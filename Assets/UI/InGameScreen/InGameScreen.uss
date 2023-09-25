@@ -1,0 +1,18 @@
+#container {
+	display: none;
+    transition-duration: 0.1s;
+}
+
+#top-in-game-screen {
+	position: relative;
+	width: 100%;
+}
+
+#top-in-game-screen #pause-btn {
+	position: absolute;
+	right: 0;
+}
+
+#bottom-in-game-screen {
+
+}
